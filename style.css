@@ -1,0 +1,125 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  width: 99vh;
+  height: 5vh;
+  text-align: center;
+  position: fixed;
+  top: 2%;
+}
+.img1 {
+  width: 15vw;
+  height: 10vw;
+  position: absolute;
+  right: 40vw;
+  top: 0%;
+}
+nav {
+  position: fixed;
+  right: 1%;
+  top: 3px;
+  text-transform: capitalize;
+  text-decoration: none;
+
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+a {
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+i {
+  position: absolute;
+  right: 95vw;
+  font-size: 2em;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+footer {
+  width: 100vw;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-size: 2vw;
+}
+.container {
+  background-color: lightgray;
+  position: absolute;
+  top: 10vw;
+  left: 5%;
+  width: 85vw;
+  display: inline-block;
+  height: fit-content;
+  text-align: center;
+  overflow-y: visible;
+  margin: 3%;
+  z-index: ;
+}
+h3 {
+  margin-top: 10%;
+}
+.img {
+  width: 50%;
+  height: 50%;
+  float: left;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+@media (max-width: 991.98px) {
+  nav > a {
+    display: none;
+  }
+
+  .card {
+    display: inline-block;
+    margin: 2%;
+    width: 80%;
+    height: 200px;
+    background-color:whitesmoke;
+    border: 1px solid black;
+    border-radius: 2%;
+  } 
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  nav > a {
+    display: none;
+  }
+  .card {
+    display: inline-block;
+    margin: 1.5%;
+    width: 45%;
+    height: 200px;
+    background-color:whitesmoke;
+    border: 1px solid black;
+    border-radius: 2%;
+  }
+}
+
+@media (min-width: 1200px) {
+  i {
+    visibility: hidden;
+  }
+  .card {
+    text-align: center;
+    display: inline-block;
+    margin: 2.2%;
+    width: 28%;
+    height: 200px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 2%;
+  }
+}
